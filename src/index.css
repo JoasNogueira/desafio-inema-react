@@ -19,13 +19,12 @@ body {
   background-color: #faefde;
 }
 
-
 h2 {
   font-size: 14px;
   font-family: lato-regular;
 }
 
-p {
+p, ul li {
   font-size: 14px;
   color: #666666;
   font-family: lato-regular;
