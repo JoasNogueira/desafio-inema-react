@@ -1,0 +1,11 @@
+.footer {
+    height: 98px;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 8px solid #1b546f;
+    text-align: center;
+}
+
+.footer img {
+    margin: 27px auto;
+}
