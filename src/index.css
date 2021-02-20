@@ -7,3 +7,26 @@
   font-family: merienda-regular;
   src: url('./assets/fonts/merienda/Merienda-Regular.ttf');
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #faefde;
+}
+
+
+h2 {
+  font-size: 14px;
+  font-family: lato-regular;
+}
+
+p {
+  font-size: 14px;
+  color: #666666;
+  font-family: lato-regular;
+}
