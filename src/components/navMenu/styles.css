@@ -1,0 +1,32 @@
+.menu-principal {
+    background-color: #1b546f;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu-espaco {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.header-1 ul li {
+    display: inline;
+    margin-right: 26px;
+    padding-top: 15px;
+    list-style: none;
+}
+
+.header-1 ul li a {
+    color: #2b86b2;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: lato-regular;
+}
+
+#mybtn {
+    cursor: pointer;
+}

@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
+import "./styles.css";
 
 class NavMenu extends Component{
 
@@ -12,7 +13,7 @@ class NavMenu extends Component{
                             <li><a href="#concurso">O Concurso</a></li>
                             <li><a href="#sobre">Sobre</a></li>
                             <li><a href="#regras">Regras</a></li>
-                            <li><a id="myBtn" style="cursor: pointer;">Inscrição</a></li>
+                            <li><a id="myBtn">Inscrição</a></li>
                         </ul>
                     </div>
                 </div>
@@ -20,3 +21,6 @@ class NavMenu extends Component{
         );
     }
 }
+
+
+export default NavMenu;
