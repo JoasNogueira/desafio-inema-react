@@ -2,6 +2,12 @@
     width: 44%;
 }
 
+.form-input input, .form-input label{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
 .form-input label {
+    font-size: 14px;
+    font-weight: bold;
     display: block;
 }
