@@ -6,7 +6,7 @@ class InputFile extends Component {
     return (
       <div className="input-file">
         <label for={this.props.name}>{this.props.label}</label>
-        <input type="file" id={this.props.name} name={this.props.name} />
+        <input type="file" id={this.props.name} name={this.props.name} onChange={this.props.onChange}/>
         <br />
         <br />
       </div>
