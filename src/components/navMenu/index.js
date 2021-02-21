@@ -1,10 +1,10 @@
 import { Component } from 'react';
 import "./styles.css";
 
-class NavMenu extends Component{
+class NavMenu extends Component {
 
     render() {
-        return(
+        return (
             <header class="menu-principal">
                 <div class="menu-espaco">
                     <div class="header-1">
@@ -13,7 +13,7 @@ class NavMenu extends Component{
                             <li><a href="#concurso">O Concurso</a></li>
                             <li><a href="#sobre">Sobre</a></li>
                             <li><a href="#regras">Regras</a></li>
-                            <li><a id="myBtn">Inscrição</a></li>
+                            <li><a style={{ cursor: 'pointer' }} onClick={this.props.openModal}>Inscrição</a></li>
                         </ul>
                     </div>
                 </div>

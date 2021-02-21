@@ -14,7 +14,7 @@ class Card extends Component {
                     <p>20/03/2017 das 16:30h ás 17:30h.</p>
                 </div>
                 <div className="botao-incricao">
-                    <button id="myBtn-2" style={{ cursor: "pointer" }}>FAÇA SUA INSCRIÇÃO</button>
+                    <button style={{ cursor: "pointer" }} onClick={this.props.openModal}>FAÇA SUA INSCRIÇÃO</button>
                 </div>
             </div>
         );
