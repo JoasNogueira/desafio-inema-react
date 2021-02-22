@@ -1,7 +1,7 @@
 import { Component } from "react";
 import axios from "axios";
 import "./styles.css";
-import NavMenu from "../../components/NavMenu";
+import NavMenu from "../../components/navMenu";
 import Logo from "../../components/Logo";
 import Topico from "../../components/Topico";
 import Card from "../../components/Card";
