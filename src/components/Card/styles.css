@@ -35,3 +35,17 @@
     padding: 15px 18px;
     font-size: 12px;
 }
+
+
+@media (max-width: 997px)
+{
+    .botao-incricao {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .data-inscricao {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

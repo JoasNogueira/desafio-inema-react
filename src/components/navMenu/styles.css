@@ -26,3 +26,9 @@
     text-transform: uppercase;
     font-family: lato-regular;
 }
+
+@media (max-width: 560px){
+    .header-1 ul {
+        padding-inline-start: 15px !important;
+    }
+}

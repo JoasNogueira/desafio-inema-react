@@ -11,3 +11,10 @@
     font-weight: bold;
     display: block;
 }
+
+@media (max-width: 560px){
+    .form-input {
+        width: 94%;
+        flex-direction: column;
+    }
+}

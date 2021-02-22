@@ -110,3 +110,10 @@
         opacity: 1
     }
 }
+
+@media (max-width: 997px){
+    .modal-conteudo{
+        width: 90%;
+        top: 71%;
+    }
+}
